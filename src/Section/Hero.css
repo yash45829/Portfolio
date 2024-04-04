@@ -1,0 +1,39 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+  @keyframes rainbow {
+    0%   { color: #00ffff; }
+    
+    10%  { color: #e08e72; }
+    20%  { color: #ff8000; }
+    30%  { color: #ffbf00; }
+    40%  { color: #ffff00; }
+    50%  { color: #bfff00; }
+    60%  { color: #80ff00; }
+    70%  { color: #40ff00; }
+    80%  { color: #00ff00; }
+    90%  { color: #00ff80; }
+    100% { color: #00ffff; }
+  
+  }
+  
+  .text-rainbow {
+    animation: rainbow 4s infinite ease-out;
+  }
+  
+  @keyframes glow {
+    0% {
+      text-shadow: 0 0 1px rgba(255, 255, 255, 0.8);
+    }
+    50% {
+      text-shadow: 0 0 2px rgba(255, 255, 255, 0.8);
+    }
+    100% {
+      text-shadow: 0 0 1px rgba(255, 255, 255, 0.8);
+    }
+  }
+  
+  .glowing-text {
+    animation: glow 2s infinite;
+  }
+  
